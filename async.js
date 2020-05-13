@@ -20,9 +20,3 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     fetchPosts();
 });
-
-/* 
-Reset
-Branch + Merge
-Pull request, push request
-*/
