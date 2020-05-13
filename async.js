@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Fetch posts faild');
         }
     };
+    
     fetchPosts();
 });
