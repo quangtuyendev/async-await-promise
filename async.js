@@ -8,7 +8,7 @@ SETUP:
 import { renderPosts } from './utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    /* Fetch posts from API */
+    // Fetch posts from API
     const fetchPosts = async () => {
         const URL = 'http://jsonplaceholder.typicode.com/posts';
         try {
