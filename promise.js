@@ -1,9 +1,10 @@
 /* 
 SETUP:
-- Embed axios cdn and lodash cdn
+- Embed axios CDN and lodash CDN
 - Defined async function fetchPost
-- Defined renderPosts get posts to render to DOM
+- Defined renderPosts get posts render to DOM
 */
+
 import { renderPosts } from './utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     };
     fetchPost(); */
-
+    
     const fetchPost = () => {
         const URL = 'http://jsonplaceholder.typicode.com/posts';
         return new Promise((resolve, reject) => {
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 .catch(() => reject(new Error('Fetch posts faild')))
         })
     };
+
     fetchPost() // Fetch posts
         .then(data => renderPosts(data)) // Get posts from resolve and render posts
         .catch(error => console.log(error)) // Handle error
