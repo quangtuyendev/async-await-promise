@@ -4,6 +4,7 @@ SETUP:
 - Defined async function fetchPost
 - Defined renderPosts get posts to render to DOM
 */
+
 import { renderPosts } from './utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -16,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     };
     fetchPost(); */
-
     const fetchPost = () => {
         const URL = 'http://jsonplaceholder.typicode.com/posts';
         return new Promise((resolve, reject) => {
