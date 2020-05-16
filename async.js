@@ -1,3 +1,10 @@
+/* 
+SETUP:
+- Embed axios CDN and lodash CDN
+- Defined async function fetchPost
+- Defined renderPosts get posts render to DOM
+*/
+
 import { renderPosts } from './utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
