@@ -4,7 +4,6 @@ SETUP:
 - Defined async function fetchPost
 - Defined renderPosts get posts to render to DOM
 */
-
 import { renderPosts } from './utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
